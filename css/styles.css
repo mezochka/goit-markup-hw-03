@@ -1,0 +1,220 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --bg-color-filter: #f5f4fa;
+  --bg-color-footer-header: #2f303a;
+  --secondary-logo-color: #000000;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo:hover .logo-style,
+.logo:focus .logo-style,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+.logo-style {
+  color: var(--secondary-logo-color);
+}
+
+.list {
+  list-style: none;
+}
+/* navigation */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* contacts  */
+
+.contacts {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+/* hero */
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  display: flex;
+  border: none;
+  border-radius: 4px;
+}
+
+/* competencies  */
+
+.competencies .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+ 
+}
+
+/* staffing  */
+.bgcolor-staff {
+  background-color: var(--bg-color-filter);
+}
+.staffing .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.staff-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.staff-item {
+  width: 270px;
+  background-color: var(--primary-white-color);
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.logo-style.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.link-design,
+.adress {
+  font-weight: 400;
+  line-height: 1.7;
+}
+.link-design {
+  color: rgba(255, 255, 255, 0.6);
+}
+.accent-bg {
+  background-color: var(--bg-color-footer-header);
+}
+
+/* classes for portfolio only*/
+
+/* filter  */
+.filter {
+  color: var(--title-text-color);
+  background-color: var(--bg-color-filter);
+
+ font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.filter:hover,
+.filter:focus,
+.main-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* examples  */
+
+.example-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.link-examples {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.link-examples:hover,
+.link-examples:focus {
+  background-color: var(--accent-color);
+}
+/* #2F303A color back hero */
+/* 2196F3 color hover head  */
+/* 212121 cjljr text head */
+/* 757575 color  link  */
+/* 2196F3 color hover link */
+/* FFFFFF hero color  */
+/* FFFFFF button color  */
+/* 757575 color text section 2  */
+/* 212121 color header section 2 */
+/* #F5F4FA color section our staff  */
+/* #2F303A color back footer  */
+/* 000000 logo color  */
